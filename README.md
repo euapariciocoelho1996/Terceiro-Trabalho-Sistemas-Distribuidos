@@ -74,7 +74,7 @@ Atenção: para que o código funcione coloque o endereço IP da máquina que es
 
 🗃️ Tela de gerenciamento do banco de dados SQLite3, onde é possível visualizar e manipular as informações armazenadas, garantindo a integridade e o correto funcionamento do sistema de armazenamento.
 
-![Banco de Dados](https://github.com/euapariciocoelho1996/Terceiro-Trabalho-Sistemas-Distribuidos/blob/main/telas/filtroAplicado.jpeg?raw=true)
+![Banco de Dados](https://github.com/euapariciocoelho1996/Terceiro-Trabalho-Sistemas-Distribuidos/blob/main/telas/bd.png?raw=true)
 
 📤🖼️ Interface do usuário para o envio de imagens. Nesta tela, o usuário pode selecionar e carregar imagens para serem processadas pelo sistema, facilitando o fluxo de trabalho e a interação com o banco de dados
 
@@ -82,7 +82,7 @@ Atenção: para que o código funcione coloque o endereço IP da máquina que es
 
 🔧🖼️ Tela que exibe o processamento de imagem com a aplicação de filtros. O sistema permite aplicar modificações nas imagens carregadas, oferecendo uma visualização clara do efeito antes de finalizar o processamento.
 
-![Processamento de imagem](https://github.com/euapariciocoelho1996/Sistema-Cliente-Servidor-em-Camadas/blob/main/telas/Captura%20de%20tela%202025-03-25%20213846.png?raw=true)
+![Imagem com Filtro](https://github.com/euapariciocoelho1996/Terceiro-Trabalho-Sistemas-Distribuidos/blob/main/telas/filtroAplicado.jpeg?raw=true)
 
 
 ## Contribuidores
