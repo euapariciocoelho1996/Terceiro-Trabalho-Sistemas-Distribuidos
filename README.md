@@ -1,0 +1,94 @@
+# Sistema Cliente/Servidor em Camadas
+ Este projeto implementa um sistema de processamento de imagens baseado em arquitetura cliente-servidor. Ele permite que um cliente envie uma imagem para um servidor, que aplicará um filtro de pixelização em preto  e branco e retornará a imagem processada. Os metadados das imagens são armazenados em um banco de dados SQLite.
+ ## Estrutura do Projeto
+
+```
+📁 TRABALHO 3  
+│  
+├── 📁 client  
+│   └── client.py        # Interface gráfica do cliente (Tkinter)  
+│  
+├── 📁 images            # Pasta onde as imagens são armazenadas  
+│  
+├── 📁 server  
+│   ├  
+│   ├── filters.py       # Aplicação de filtros na imagem  
+│   ├── server.py        # Servidor Flask que processa as imagens  
+│   └── 📁 pycache/      # Cache de execução do Python  
+│  
+├── 📁 telas             # Capturas de tela para demonstração do projeto  
+│  
+├── 📁 images.db         # Banco de dados SQLite  
+│  
+├── README.md            # Documentação do projeto  
+├── requirements.txt     # Dependências do projeto  
+├── .gitignore           # Arquivos a serem ignorados no Git  
+└── LICENSE              # Licença do projeto  
+```
+
+Essa estrutura deve facilitar a navegação e compreensão do projeto por outros desenvolvedores ou usuários que acessarem o repositório.
+
+
+## Requisitos
+
+- 🐍 Python 3.x
+- 🖼️ Pillow – Processamento de imagens
+- 🖥️ Tkinter – Interface gráfica do cliente
+- 🌐 Flask – Comunicação HTTP entre cliente e servidor
+- 🗄️ SQLite 3.x – Banco de dados para armazenamento de metadados
+  
+## 🚀 **Como Executar o Projeto**  
+
+### 🔹 **1. Clone o repositório**  
+Abra o terminal e execute:  
+```bash
+git clone https://github.com/euapariciocoelho1996/Sistema-Cliente-Servidor-em-Camadas.git
+cd Sistema-Cliente-Servidor-em-Camadas
+```
+### 🔹 **2. Crie um ambiente virtual e ative-o**  
+```bash
+python -m venv venv
+source venv/bin/activate  # No Windows use: venv\Scripts\activate
+```
+
+### 🔹 **3. Instale as dependências**  
+```No Terminal execute:
+ pip install Flask
+ pip install requests
+ pip install pillow
+```
+
+### 🔹 **4. Inicie o Servidor**  
+```bash
+python server/server.py
+```
+
+### 🔹 **5. Execute o Cliente**  
+```bash
+python client/client.py
+```
+
+# 📸 Telas do Sistema
+
+🗃️ Tela de gerenciamento do banco de dados SQLite3, onde é possível visualizar e manipular as informações armazenadas, garantindo a integridade e o correto funcionamento do sistema de armazenamento.
+
+![SQlite3](https://github.com/euapariciocoelho1996/Sistema-Cliente-Servidor-em-Camadas/blob/main/telas/Captura%20de%20tela%202025-03-25%20213724.png?raw=true)
+
+📤🖼️ Interface do usuário para o envio de imagens. Nesta tela, o usuário pode selecionar e carregar imagens para serem processadas pelo sistema, facilitando o fluxo de trabalho e a interação com o banco de dados
+
+![Tela do usuário](https://github.com/euapariciocoelho1996/Sistema-Cliente-Servidor-em-Camadas/blob/main/telas/Captura%20de%20tela%202025-03-25%20213815.png?raw=true)
+
+🔧🖼️ Tela que exibe o processamento de imagem com a aplicação de filtros. O sistema permite aplicar modificações nas imagens carregadas, oferecendo uma visualização clara do efeito antes de finalizar o processamento.
+
+![Processamento de imagem](https://github.com/euapariciocoelho1996/Sistema-Cliente-Servidor-em-Camadas/blob/main/telas/Captura%20de%20tela%202025-03-25%20213846.png?raw=true)
+
+## Contribuidores
+
+Luis Eduardo,
+Francisco Aparício,
+Victor Macêdo
+
+
+## Licença
+
+Este projeto está sob a licença MIT.
