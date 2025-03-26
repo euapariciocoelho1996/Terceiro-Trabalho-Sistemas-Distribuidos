@@ -74,7 +74,7 @@ Atenção: para que o código funcione coloque o endereço IP da máquina que es
 
 🗃️ Tela de gerenciamento do banco de dados SQLite3, onde é possível visualizar e manipular as informações armazenadas, garantindo a integridade e o correto funcionamento do sistema de armazenamento.
 
-![Banco de Dados](https://github.com/euapariciocoelho1996/Terceiro-Trabalho-Sistemas-Distribuidos/blob/main/telas/bd.png?raw=true)
+![Banco de Dados](https://github.com/euapariciocoelho1996/Terceiro-Trabalho-Sistemas-Distribuidos/blob/main/telas/filtroAplicado.jpeg?raw=true)
 
 📤🖼️ Interface do usuário para o envio de imagens. Nesta tela, o usuário pode selecionar e carregar imagens para serem processadas pelo sistema, facilitando o fluxo de trabalho e a interação com o banco de dados
 
