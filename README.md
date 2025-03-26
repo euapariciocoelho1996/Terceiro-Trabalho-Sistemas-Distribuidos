@@ -7,7 +7,8 @@
 │  
 ├── 📁 client  
 │   └── client.py        # Interface gráfica do cliente (Tkinter)  
-│  
+│
+├── 📁 client_images    # Usuário também pode visualizar na sua máquina
 ├── 📁 images            # Pasta onde as imagens são armazenadas  
 │  
 ├── 📁 server  
@@ -45,10 +46,9 @@ Abra o terminal e execute:
 git clone https://github.com/euapariciocoelho1996/Sistema-Cliente-Servidor-em-Camadas.git
 cd Sistema-Cliente-Servidor-em-Camadas
 ```
-### 🔹 **2. Crie um ambiente virtual e ative-o**  
-```bash
-python -m venv venv
-source venv/bin/activate  # No Windows use: venv\Scripts\activate
+### 🔹 **2. O trabalho solicita o uso de dois computadores**  
+```
+Baixe os arquivos compactados (ZIP) do código em ambas as máquinas que serão utilizadas.
 ```
 
 ### 🔹 **3. Instale as dependências**  
@@ -66,6 +66,8 @@ python server/server.py
 ### 🔹 **5. Execute o Cliente**  
 ```bash
 python client/client.py
+
+Atenção: para que o código funcione coloque o endereço IP da máquina que está sendo o servidor. O mesmo deve ser feito no arquivo do cliente.
 ```
 
 # 📸 Telas do Sistema
@@ -76,11 +78,12 @@ python client/client.py
 
 📤🖼️ Interface do usuário para o envio de imagens. Nesta tela, o usuário pode selecionar e carregar imagens para serem processadas pelo sistema, facilitando o fluxo de trabalho e a interação com o banco de dados
 
-![Tela do usuário](https://github.com/euapariciocoelho1996/Sistema-Cliente-Servidor-em-Camadas/blob/main/telas/Captura%20de%20tela%202025-03-25%20213815.png?raw=true)
+![Tela do usuário](https://github.com/euapariciocoelho1996/Terceiro-Trabalho-Sistemas-Distribuidos/blob/main/telas/selecionarImg.png?raw=true)
 
 🔧🖼️ Tela que exibe o processamento de imagem com a aplicação de filtros. O sistema permite aplicar modificações nas imagens carregadas, oferecendo uma visualização clara do efeito antes de finalizar o processamento.
 
 ![Processamento de imagem](https://github.com/euapariciocoelho1996/Sistema-Cliente-Servidor-em-Camadas/blob/main/telas/Captura%20de%20tela%202025-03-25%20213846.png?raw=true)
+
 
 ## Contribuidores
 
